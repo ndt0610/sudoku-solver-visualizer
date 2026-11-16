@@ -156,7 +156,7 @@ SAMPLE_PUZZLES: List[Grid] = [
 # --- Pygame UI -------------------------------------------------------------
 CELL_SIZE = 60
 GRID_SIZE = CELL_SIZE * 9
-INFO_HEIGHT = 170
+INFO_HEIGHT = 220
 WIDTH, HEIGHT = GRID_SIZE, GRID_SIZE + INFO_HEIGHT
 BG_COLOR = (15, 18, 25)
 GRID_COLOR = (80, 90, 110)

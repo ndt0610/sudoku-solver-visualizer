@@ -2,6 +2,11 @@
 
 A Pygame board for entering a Sudoku puzzle, highlighting conflicts, requesting a hint, and watching a backtracking solver search for solutions.
 
+## Preview: one solution found by MRV backtracking
+
+![The sample puzzle after the solver has filled the grid; status below the board reports one found solution.](docs/images/sudoku-solved-board.png)
+
+*The live demo keeps the original givens in blue and shows the solved cells in a lighter color. This example has one solution.*
 ## Solver
 
 The solver uses the minimum-remaining-values (MRV) heuristic: at each step it selects the empty cell with the fewest legal candidates. This narrows the search earlier than choosing the first empty cell.
